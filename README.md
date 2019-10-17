@@ -2,7 +2,7 @@
 # Trie
 
 ```
-is a kind of ordered tree data structure used to store a 
+Is a kind of ordered tree data structure used to store a 
 dynamic set or associative array where the keys are usually strings.
 Unlike a binary search tree, no node in the tree stores the key associated with that node.
 instead, its position in the tree defines the key with which it is associated.
@@ -12,3 +12,11 @@ Keys tend to be associated with leaves, though some inner nodes
 may correspond to keys of interest.
 ```
 ~ Wikipedia
+
+---
+
+### how can i use this?
+
+Just include "trie.hpp" in your project. this file will contain a class named _trie_.
+_trie_ class will have the following methods:
+__insert__,__unique_insert__,__remove__,__total_remove__,__search__,__quantity__,__prefix__.
