@@ -1,5 +1,5 @@
 
-#Trie
+# Trie
 
 ```
 is a kind of ordered tree data structure used to store a dynamic set or associative array where the keys are usually strings.
