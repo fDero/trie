@@ -1,19 +1,21 @@
-#include "macro.hpp"
+//eMail:        francescodero@outlook.it
+//Telegram:     @fDero 
+
 #include "trie.hpp"
 #include "methods.hpp"
 
-call
+int main()
 {
     trie t;
-    t.insert("fag");
-    t.insert("fag");
-    t.insert("fagioli");
-    t.insert("fagiolini");
-    t.insert("rag");
-    t.insert("fango");
-    t.insert("filo");  
+    t.insert("computer");
+    t.insert("compton");
+    t.insert("cat");
+    t.insert("dog");
+    t.insert("thunder");
+    t.insert("tunnel");
+    t.insert("rope");  
 
-    auto k = t.prefix("fa");
+    auto k = t.prefix("co");
     
     for ( auto & kk : k ) std::cout << kk << std::endl;   
 }
