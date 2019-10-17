@@ -26,16 +26,29 @@ _insert_,_unique_insert_,_remove_,_total_remove_,_search_,_quantity_,_prefix_.
 ##### what those methods does?
 
 _insert_ :
-    will put the string into the trie without checking if the trie already contains the same string
+    will put the string into the trie without checking if the trie already contains the same string.
 
 _unique_insert_ :
     will put the string into the trie checking if the trie already contains the same string and evenctually
     will not insert the string if is already stored.
     
 _remove_ :
-     will remove the string once, if that string will be found, otherwise does nothing.
+    will remove the string once, if that string will be found, otherwise does nothing.
 
 _total_remove_:
-
+    removes the strings every times it will be found, if will be found no string matching, does nothing.
     
+_search_:
+    returns true if is there any string matching the string passed, otherwise return false.
+    
+_quantity_:
+    returns how many strings matching the passed string the trie actually contains.
+    
+_prefix_:
+    returns an _std::vector<std::string>_ rappresenting every string starting with the passed prefix.
+    
+---
+
+eMail: francescodero@outlook.it
+Telegram: @fDero
 
