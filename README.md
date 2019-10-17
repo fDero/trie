@@ -32,11 +32,10 @@ _unique_insert_ :
     will put the string into the trie checking if the trie already contains the same string and evenctually
     will not insert the string if is already stored.
     
-_insert_ 
-    will put the string into the trie without checking if the trie already contains the same string
+_remove_ :
+     will remove the string once, if that string will be found, otherwise does nothing.
 
-_unique_insert_ :
-    will put the string into the trie checking if the trie already contains the same string and evenctually
-    will not insert the string if is already stored.
+_total_remove_:
+
     
 
