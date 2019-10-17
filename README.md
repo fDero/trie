@@ -15,8 +15,21 @@ may correspond to keys of interest.
 
 ---
 
-### how can i use this?
+### User Guide
+
+##### how can i use this?
 
 Just include "trie.hpp" in your project. this file will contain a class named _trie_.
 _trie_ class will have the following methods:
 __insert__,__unique_insert__,__remove__,__total_remove__,__search__,__quantity__,__prefix__.
+
+##### what those methods does?
+
+__insert__ :
+    will put the string into the trie without checking if the trie already contains the same string
+
+__unique_insert__ :
+    will put the string into the trie checking if the trie already contains the same string and evenctually
+    will not insert the string if is already stored.
+    
+
