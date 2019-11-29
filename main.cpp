@@ -1,7 +1,7 @@
 //eMail:        francescodero@outlook.it
 //Telegram:     @fDero 
 
-#include "trie.cpp"
+#include "trie.hpp"
 
 int main()
 {
