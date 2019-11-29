@@ -5,6 +5,7 @@
 #include <algorithm>
 #include <utility>
 #include <stdexcept>
+#include "trie.hpp"
 
 void trie::clear() 
 {
