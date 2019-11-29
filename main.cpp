@@ -2,7 +2,6 @@
 //Telegram:     @fDero 
 
 #include "trie.hpp"
-#include "methods.hpp"
 
 int main()
 {
